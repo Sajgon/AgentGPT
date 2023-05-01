@@ -122,11 +122,6 @@ const ChatWindow = ({
                   value: `📢 ${t("YOU_CAN_PROVIDE_YOUR_OWN_OPENAI_KEY")}`,
                 }}
               />
-              {showDonation && (
-                <Expand delay={0.7} type="spring">
-                  <DonationMessage />
-                </Expand>
-              )}
             </Expand>
           </>
         )}
